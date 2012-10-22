@@ -1,4 +1,6 @@
 EventPump
 =========
 
-A publish/subscribe implementation designed for asynchronous event delivery.
+A publish/subscribe library designed for asynchronous event delivery.
+
+(C) 2012 by Tobias Haustein, Aachen, Germany.
