@@ -521,6 +521,8 @@
         // (see spec above). Before it is established, it is called a pending subscriber.
         var sharedBehaviorForPendingAndEstablishedSubscribers = function( description, beforeEachFunc ) {
             describe( description, function() {
+                beforeEach(beforeEachFunc);
+
                 it( "supports unsubscribing named events from the event pump", function() {
                     expect( function() { eventPump.unsubscribe( subscriberCallback1 ); } ).not.toThrow();
                 });
